@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+
+
+	<section>
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+
+				<div class="title title-center">
+					<h1 class="mb-10"><br><br>About Me<br><br></h1>
+					<a class="mb-4  btn btn-primary" href="{% url 'blog:resume' %}" role="button">My Resume</a>
+					<p><br><br></p>
+
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+
+{% endblock %}
